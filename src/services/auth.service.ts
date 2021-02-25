@@ -4,7 +4,7 @@ import { HttpClient } from "@angular/common/http";
 import { LocalUser } from "../models/local_user";
 import { StorageService } from "./storage.service";
 import { JwtHelper } from "angular2-jwt";
-import { API_CONFIG } from "../config/api.cofig";
+import { API_CONFIG } from "../config/api.config";
 @Injectable()
 export class AuthService {
   jwtHelper: JwtHelper = new JwtHelper();

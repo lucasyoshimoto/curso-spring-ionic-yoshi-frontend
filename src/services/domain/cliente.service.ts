@@ -4,7 +4,7 @@ import { Observable } from "rxjs/Rx";
 import { ClienteDTO } from "../../models/cliente.dto";
 
 import { StorageService } from "../storage.service";
-import { API_CONFIG } from "../../config/api.cofig";
+import { API_CONFIG } from "../../config/api.config";
 
 @Injectable()
 export class ClienteService {
